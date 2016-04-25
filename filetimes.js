@@ -26,7 +26,7 @@ var btime = pathStat.birthtime;
 
 // console.log(ctime, mtime, atime, btime);
 console.log("\nFile times for: ",filename);
-console.log("\nCreated:",ctime);
+console.log("\nChanged:",ctime);
 console.log("\nModified:",mtime);
 console.log("\nLast accessed:",atime);
 console.log("\nBirthtime:",btime);
